@@ -1,0 +1,51 @@
+.calculator {
+    width: 25%;
+    height: 600px;
+    margin: 70px auto;
+    font-family: sans-serif;
+    border: 1.5px solid cornflowerblue;
+    color: cornflowerblue;
+    background-color: rgb(255, 251, 236);
+    border-radius: 7px;
+    box-shadow: inset 7px 10px 10px rgb(213, 227, 252);
+}
+#display  {
+    width: 95%;
+    border-radius: 5px;
+    height: 85px;
+    margin-right: 20px;
+    font-size: 55px;
+    text-align: right;
+    margin-bottom: 7px;
+    background-color: rgb(255, 251, 236);
+    color: cornflowerblue;
+    border: 10px solid cornflowerblue;
+    box-shadow: 3px 7px 7px rgb(213, 227, 252);
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:35px;
+    padding: 35px 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button {
+    border-radius: 50%;
+    padding: 10px 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: cornflowerblue;
+    background-color: rgb(255, 251, 236);
+    cursor: pointer;
+    border: 1px solid cornflowerblue;
+    box-shadow: inset 3px 3px 8px rgb(213, 227, 252);
+    transition: all 0.15s ease;
+}
+button:hover {
+    box-shadow: inset 3px 3px 12px cornsilk;
+}
+button:active {
+    box-shadow: inset 3px 3px 8px rgb(213, 227, 252);
+}
