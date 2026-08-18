@@ -3,11 +3,11 @@
     height: 600px;
     margin: 70px auto;
     font-family: sans-serif;
-    border: 1.5px solid cornflowerblue;
-    color: cornflowerblue;
-    background-color: rgb(255, 251, 236);
+    border: 1.5px solid rgba(4, 7, 160, 0.822);
+    color: rgb(218, 180, 11);
+    background-color: rgba(4, 7, 160, 0.822);
     border-radius: 7px;
-    box-shadow: inset 7px 10px 10px rgb(213, 227, 252);
+    box-shadow: inset 7px 10px 10px rgb(253, 238, 151);
 }
 #display  {
     width: 95%;
@@ -40,7 +40,7 @@ button {
     color: rgba(238, 174, 144, 0.77);
     background-color: rgb(238, 175, 55, 0.5);
     cursor: pointer;
-    border: 1px solid cornflowerblue;
+    border: 1px solid rgb(238, 175, 55, 0.5);
     box-shadow: inset 3px 3px 8px rgb(212, 175, 55, 0.5);
     transition: all 0.15s ease;
 }
