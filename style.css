@@ -3,11 +3,11 @@
     height: 600px;
     margin: 70px auto;
     font-family: sans-serif;
-    border: 1.5px solid cornflowerblue;
-    color: cornflowerblue;
-    background-color: rgb(255, 251, 236);
+    border: 1.5px solid rgba(4, 7, 160, 0.822);
+    color: rgb(218, 180, 11);
+    background-color: rgba(4, 7, 160, 0.822);
     border-radius: 7px;
-    box-shadow: inset 7px 10px 10px rgb(213, 227, 252);
+    box-shadow: inset 7px 10px 10px rgb(253, 238, 151);
 }
 #display  {
     width: 95%;
@@ -17,10 +17,10 @@
     font-size: 55px;
     text-align: right;
     margin-bottom: 7px;
-    background-color: rgb(255, 251, 236);
-    color: cornflowerblue;
-    border: 10px solid cornflowerblue;
-    box-shadow: 3px 7px 7px rgb(213, 227, 252);
+    background-color: rgba(201, 201, 250, 0.822);
+    color: rgb(218, 180, 11);
+    border: 10px solid rgba(4, 7, 160, 0.822);
+    box-shadow: 3px 7px 7px rgb(253, 238, 151);
 }
 .buttons {
     display: grid;
@@ -36,16 +36,16 @@ button {
     width: 60px;
     height: 60px;
     font-size: 30px;
-    color: cornflowerblue;
-    background-color: rgb(255, 251, 236);
+    color:rgb(218, 180, 11);
+    background-color: rgba(4, 7, 160, 0.822);
     cursor: pointer;
-    border: 1px solid cornflowerblue;
-    box-shadow: inset 3px 3px 8px rgb(213, 227, 252);
+    border: 1px solid rgba(4, 7, 160, 0.822);
+    box-shadow: inset 3px 3px 8px rgb(253, 238, 151);
     transition: all 0.15s ease;
 }
 button:hover {
-    box-shadow: inset 3px 3px 12px cornsilk;
+    box-shadow: inset 3px 3px 12px rgb(192, 192, 252);
 }
 button:active {
-    box-shadow: inset 3px 3px 8px rgb(213, 227, 252);
+    box-shadow: inset 3px 3px 8px rgb(253, 238, 151);
 }
