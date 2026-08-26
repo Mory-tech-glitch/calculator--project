@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <input type="text" id="display" disabled value="0">
+        <div class="buttons">
+            <button class="memory" onclick="memoryclear(`MC`)">MC</button>
+            <button class="memory" onclick="memoryrecall(`MR`)">MR</button>
+            <button class="memory" onclick="memoryadd(`M+`)">M+</button>
+            <button class="memory" onclick="memorysub(`M-`)">M-</button>
+            <button class="trig" onclick="sinfunction(`sin`)">sin</button>
+            <button class="trig" onclick="cosfunction(`cos`)">cos</button>
+            <button class="trig" onclick="tanfunction(`tan`)">tan</button>
+            <button class="triground" onclick="roundfunction()">~</button>
+            <button class="clearallclear" onclick="clearallclear()">AC</button>
+            <button class="percentage" onclick="percentage()">%</button>
+            <button class="cleardelete" onclick="cleardelete()">Del</button> 
+            <button class="operator" onclick="appendValue(`/`)">÷</button>
+            <button onclick="appendValue('7')">7</button>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('9')">9</button>
+            <button class="operator" onclick="appendValue(`*`)">×</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('6')">6</button>
+            <button class="operator" onclick="appendValue('-')">-</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('1')">1</button>
+            <button class="operator" onclick="appendValue('+')">+</button>
+            <button onclick="appendValue('00')">00</button>
+            <button onclick="appendValue('0')">0</button>
+            <button onclick="appendValue('.')">.</button>
+            <button class="calculate" onclick="calculate()">=</button>
+        </div>
+           <script src="script.js"></script>
+        </body>
+        </html>
+        </div>
