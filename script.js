@@ -60,7 +60,7 @@ function cleardelete() {
     display.value = display.value.slice(0, -1)  || '0';
     adjustFontSize();
 }
-function Calculate() {
+function calculate() {
     try {
         let result = eval(display.value);
         if (result === Infinity || result === -Infinity || isNaN(result)) {
